@@ -35,10 +35,10 @@ pnpm build
 
 This repository is configured for GitHub Pages project-site hosting.
 
-- Repository: `Nicte/compara-coches`
-- Live URL: `https://nicte.github.io/compara-coches/`
+- Repository: `Nicte/car-data`
+- Live URL: `https://nicte.github.io/car-data/`
 
-Deployment is automated through `.github/workflows/deploy-pages.yml` on every push to `master`.
+Deployment is automated through `.github/workflows/deploy-pages.yml` on every push to `main`.
 
 To enable it in GitHub:
 
@@ -87,3 +87,6 @@ pnpm run data:build-rolling-sales
 ## TODO
 
 - [ ] Review design notes and architecture documentation in `/docs` folder
+- [ ] Add missing content (pictures, sizes, etc)
+- [ ] Deduplicate content (for example "OPEL Corsa GS 1 2T Xhl Mt6" and "OPEL Corsa Edition 1 2T Xhl"). Find a way to dedup them. Maybe keep most sold version? or some other heuristic
+- [ ] Make better responsive layout. Filters in mobile take too much space, always open
