@@ -31,6 +31,20 @@ Build:
 pnpm build
 ```
 
+## Deploy to GitHub Pages
+
+This repository is configured for GitHub Pages project-site hosting.
+
+- Repository: `Nicte/compara-coches`
+- Live URL: `https://nicte.github.io/compara-coches/`
+
+Deployment is automated through `.github/workflows/deploy-pages.yml` on every push to `main`.
+
+To enable it in GitHub:
+
+1. Go to `Settings -> Pages` in the repository.
+2. Under `Build and deployment`, select `Source: GitHub Actions`.
+
 ## Update official data (incremental)
 
 Download only missing monthly files for the latest 12-month window (and prune older local files), then regenerate rolling ranking:
