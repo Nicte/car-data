@@ -25,7 +25,7 @@ dist-ssr
 
 # Optional DGT helper outputs not used by the app runtime
 data/dgt/manifest*.csv
-data/dgt/*.zip
+data/dgt/**/*.zip
 data/dgt_test/
 # Environment variables
 .env
