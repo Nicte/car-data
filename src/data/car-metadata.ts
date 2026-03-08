@@ -37,9 +37,24 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "dacia-sandero": {
     bodyType: "utilitario",
     versions: [
-      { id: "tce-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "tce-auto", powertrain: "gasoline", transmission: "automatic", dgtLabel: "C" },
-      { id: "eco-g-manual", powertrain: "lpg", transmission: "manual", dgtLabel: "ECO" },
+      {
+        id: "tce-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tce-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "eco-g-manual",
+        powertrain: "lpg",
+        transmission: "manual",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4102,
     widthMm: 1848,
@@ -50,8 +65,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "renault-clio": {
     bodyType: "utilitario",
     versions: [
-      { id: "tce-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "e-tech-auto", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
+      {
+        id: "tce-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "e-tech-auto",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4053,
     widthMm: 1798,
@@ -62,8 +87,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "seat-ibiza": {
     bodyType: "utilitario",
     versions: [
-      { id: "tsi-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "tsi-dsg", powertrain: "gasoline", transmission: "automatic", dgtLabel: "C" },
+      {
+        id: "tsi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tsi-dsg",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
     ],
     lengthMm: 4059,
     widthMm: 1780,
@@ -74,8 +109,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "mg-mg-zs": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "zs-gas-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "zs-hybrid-auto", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
+      {
+        id: "zs-gas-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "zs-hybrid-auto",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4432,
     widthMm: 1809,
@@ -86,7 +131,12 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "toyota-toyota-corolla": {
     bodyType: "compacto",
     versions: [
-      { id: "corolla-hybrid", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
+      {
+        id: "corolla-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4370,
     widthMm: 1790,
@@ -97,8 +147,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "seat-arona": {
     bodyType: "suv-urbano",
     versions: [
-      { id: "arona-tsi-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "arona-tsi-dsg", powertrain: "gasoline", transmission: "automatic", dgtLabel: "C" },
+      {
+        id: "arona-tsi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "arona-tsi-dsg",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
     ],
     lengthMm: 4154,
     widthMm: 1780,
@@ -109,10 +169,30 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "hyundai-tucson": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "tgdi-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "crdi-auto", powertrain: "diesel", transmission: "automatic", dgtLabel: "C" },
-      { id: "hybrid-auto", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
-      { id: "phev-auto", powertrain: "phev", transmission: "automatic", dgtLabel: "CERO" },
+      {
+        id: "tgdi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "crdi-auto",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "hybrid-auto",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "phev-auto",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
     ],
     lengthMm: 4510,
     widthMm: 1865,
@@ -123,8 +203,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "toyota-toyota-c-hr": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "chr-hybrid", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
-      { id: "chr-phev", powertrain: "phev", transmission: "automatic", dgtLabel: "CERO" },
+      {
+        id: "chr-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "chr-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
     ],
     lengthMm: 4362,
     widthMm: 1832,
@@ -135,8 +225,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "nissan-nissan-qashqai": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "mhev-manual", powertrain: "mhev", transmission: "manual", dgtLabel: "ECO" },
-      { id: "e-power-auto", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
+      {
+        id: "mhev-manual",
+        powertrain: "mhev",
+        transmission: "manual",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "e-power-auto",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4425,
     widthMm: 1835,
@@ -147,7 +247,12 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "toyota-toyota-yaris-cross": {
     bodyType: "suv-urbano",
     versions: [
-      { id: "yaris-cross-hybrid", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
+      {
+        id: "yaris-cross-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4180,
     widthMm: 1765,
@@ -158,8 +263,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "volkswagen-t-roc": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "troc-tsi-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "troc-tdi-auto", powertrain: "diesel", transmission: "automatic", dgtLabel: "C" },
+      {
+        id: "troc-tsi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "troc-tdi-auto",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
     ],
     lengthMm: 4236,
     widthMm: 1819,
@@ -170,9 +285,24 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "volkswagen-tiguan": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "tiguan-etsi", powertrain: "mhev", transmission: "automatic", dgtLabel: "ECO" },
-      { id: "tiguan-tdi", powertrain: "diesel", transmission: "automatic", dgtLabel: "C" },
-      { id: "tiguan-phev", powertrain: "phev", transmission: "automatic", dgtLabel: "CERO" },
+      {
+        id: "tiguan-etsi",
+        powertrain: "mhev",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "tiguan-tdi",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "tiguan-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
     ],
     lengthMm: 4539,
     widthMm: 1842,
@@ -183,7 +313,12 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "toyota-toyota-yaris": {
     bodyType: "utilitario",
     versions: [
-      { id: "yaris-hybrid", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
+      {
+        id: "yaris-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 3940,
     widthMm: 1745,
@@ -194,10 +329,30 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "kia-sportage": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "sportage-gdi", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "sportage-crdi", powertrain: "diesel", transmission: "automatic", dgtLabel: "C" },
-      { id: "sportage-hev", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
-      { id: "sportage-phev", powertrain: "phev", transmission: "automatic", dgtLabel: "CERO" },
+      {
+        id: "sportage-gdi",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "sportage-crdi",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "sportage-hev",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "sportage-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
     ],
     lengthMm: 4515,
     widthMm: 1865,
@@ -205,13 +360,61 @@ export const carMetadataById: Record<string, CarMetadata> = {
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/5/5d/2025_Kia_Sportage_S_front_only.jpg",
   },
+  "kia-ceed": {
+    bodyType: "compacto",
+    versions: [
+      {
+        id: "ceed-gdi",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "ceed-crdi",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "ceed-mhev",
+        powertrain: "mhev",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+    ],
+    lengthMm: 4355,
+    widthMm: 1800,
+    trunkLiters: 395,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2023_Kia_Ceed_2.jpg",
+  },
   "volkswagen-golf": {
     bodyType: "compacto",
     versions: [
-      { id: "golf-tsi", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "golf-tdi", powertrain: "diesel", transmission: "automatic", dgtLabel: "C" },
-      { id: "golf-etsi", powertrain: "mhev", transmission: "automatic", dgtLabel: "ECO" },
-      { id: "golf-phev", powertrain: "phev", transmission: "automatic", dgtLabel: "CERO" },
+      {
+        id: "golf-tsi",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "golf-tdi",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "golf-etsi",
+        powertrain: "mhev",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "golf-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
     ],
     lengthMm: 4282,
     widthMm: 1789,
@@ -222,9 +425,24 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "hyundai-kona": {
     bodyType: "suv-urbano",
     versions: [
-      { id: "kona-gas", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "kona-hev", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
-      { id: "kona-ev", powertrain: "electric", transmission: "automatic", dgtLabel: "CERO" },
+      {
+        id: "kona-gas",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "kona-hev",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "kona-ev",
+        powertrain: "electric",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
     ],
     lengthMm: 4350,
     widthMm: 1825,
@@ -235,8 +453,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "volkswagen-taigo": {
     bodyType: "suv-urbano",
     versions: [
-      { id: "taigo-tsi-manual", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "taigo-tsi-dsg", powertrain: "gasoline", transmission: "automatic", dgtLabel: "C" },
+      {
+        id: "taigo-tsi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "taigo-tsi-dsg",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
     ],
     lengthMm: 4266,
     widthMm: 1757,
@@ -247,9 +475,24 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "dacia-duster": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "duster-tce", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "duster-eco-g", powertrain: "lpg", transmission: "manual", dgtLabel: "ECO" },
-      { id: "duster-hev", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
+      {
+        id: "duster-tce",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "duster-eco-g",
+        powertrain: "lpg",
+        transmission: "manual",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "duster-hev",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4343,
     widthMm: 1813,
@@ -260,8 +503,18 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "kia-stonic": {
     bodyType: "suv-urbano",
     versions: [
-      { id: "stonic-gdi", powertrain: "gasoline", transmission: "manual", dgtLabel: "C" },
-      { id: "stonic-mhev", powertrain: "mhev", transmission: "manual", dgtLabel: "ECO" },
+      {
+        id: "stonic-gdi",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "stonic-mhev",
+        powertrain: "mhev",
+        transmission: "manual",
+        dgtLabel: "ECO",
+      },
     ],
     lengthMm: 4140,
     widthMm: 1760,
@@ -272,13 +525,365 @@ export const carMetadataById: Record<string, CarMetadata> = {
   "toyota-toyota-rav4": {
     bodyType: "suv-compacto",
     versions: [
-      { id: "rav4-hybrid", powertrain: "hybrid", transmission: "automatic", dgtLabel: "ECO" },
-      { id: "rav4-phev", powertrain: "phev", transmission: "automatic", dgtLabel: "CERO" },
+      {
+        id: "rav4-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "rav4-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
     ],
     lengthMm: 4600,
     widthMm: 1855,
     trunkLiters: 580,
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/6/62/Toyota_RAV4_XLE_%28facelift%29_%28front%29.jpg",
+  },
+  "omoda-omoda5": {
+    bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "omoda5-gas",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+    ],
+    lengthMm: 4230,
+    widthMm: 1840,
+    trunkLiters: 405,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Omoda_5_2024.png",
+  },
+  "omoda-omoda-9-phev": {
+    bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "omoda9-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
+    lengthMm: 4615,
+    widthMm: 1900,
+    trunkLiters: 460,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Omoda_9_2024.png",
+  },
+  "jaecoo-jaecoo7-phev": {
+    bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "jaecoo7-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
+    lengthMm: 4400,
+    widthMm: 1850,
+    trunkLiters: 420,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Jaecoo_7_2024.png",
+  },
+  "ebro-s700": {
+    versions: [
+      {
+        id: "s700-dci",
+        powertrain: "diesel",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+    ],
+    lengthMm: 6025,
+    widthMm: 2050,
+    trunkLiters: 13800,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/EBRO_Trucks.svg",
+  },
+  "ebro-s400-hev": {
+    versions: [
+      {
+        id: "s400-hev",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+    ],
+    lengthMm: 5550,
+    widthMm: 2050,
+    trunkLiters: 10000,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/EBRO_Trucks.svg",
+  },
+  "seat-seat-leon": {
+    bodyType: "compacto",
+    versions: [
+      {
+        id: "tsi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tsi-dsg",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "tdi-auto",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "phev-auto",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
+    lengthMm: 4368,
+    widthMm: 1799,
+    trunkLiters: 380,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/SEAT_Leon_%284%29.jpg",
+  },
+  "hyundai-i20": {
+    bodyType: "utilitario",
+    versions: [
+      {
+        id: "tgdi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tgdi-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "mhev-manual",
+        powertrain: "mhev",
+        transmission: "manual",
+        dgtLabel: "ECO",
+      },
+    ],
+    lengthMm: 4065,
+    widthMm: 1775,
+    trunkLiters: 352,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hyundai_i20_%284%29.jpg",
+  },
+  "volkswagen-t-cross": {
+    bodyType: "suv-urbano",
+    versions: [
+      {
+        id: "tsi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tsi-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "tdi-auto",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+    ],
+    lengthMm: 4127,
+    widthMm: 1760,
+    trunkLiters: 385,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/VW_T-Cross_1.0_TSi_%E2%80%93_f_2021.jpg",
+  },
+  "renault-austral": {
+    bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "tce-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tce-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "etech-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+    ],
+    lengthMm: 4533,
+    widthMm: 1830,
+    trunkLiters: 500,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Renault_Austral_frontside.jpg",
+  },
+  "skoda-kamiq": {
+    bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "tsi-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tsi-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "gtec-manual",
+        powertrain: "lpg",
+        transmission: "manual",
+        dgtLabel: "ECO",
+      },
+    ],
+    lengthMm: 4241,
+    widthMm: 1793,
+    trunkLiters: 400,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Skoda_Kamiq_frontside.jpg",
+  },
+  "renault-captur": {
+    bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "tce-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "tce-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "etech-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+      {
+        id: "etech-phev",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
+    lengthMm: 4239,
+    widthMm: 1797,
+    trunkLiters: 422,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Renault_Captur_frontside.jpg",
+  },
+  "tesla-model-3": {
+    bodyType: "compacto",
+    versions: [
+      {
+        id: "rwd",
+        powertrain: "electric",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+      {
+        id: "lr-awd",
+        powertrain: "electric",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+      {
+        id: "mr-awd",
+        powertrain: "electric",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
+    lengthMm: 4720,
+    widthMm: 1850,
+    trunkLiters: 513,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2022_Tesla_Model_3_%28Highland%29%2C_front_10.7.22.jpg",
+  },
+  "peugeot-208-5p-allure-gasolina": {
+    bodyType: "utilitario",
+    versions: [
+      {
+        id: "puretech-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "puretech-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+    ],
+    lengthMm: 4055,
+    widthMm: 1745,
+    trunkLiters: 309,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Peugeot_208_frontside.jpg",
+  },
+  "ford-kuga": {
+    bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "ecoboost-manual",
+        powertrain: "gasoline",
+        transmission: "manual",
+        dgtLabel: "C",
+      },
+      {
+        id: "ecoboost-auto",
+        powertrain: "gasoline",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "ecoblue-diesel",
+        powertrain: "diesel",
+        transmission: "automatic",
+        dgtLabel: "C",
+      },
+      {
+        id: "ecoboost-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+    ],
+    lengthMm: 4604,
+    widthMm: 1882,
+    trunkLiters: 482,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ford_Kuga_front_2020.jpg",
   },
 }

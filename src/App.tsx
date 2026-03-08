@@ -1261,11 +1261,11 @@ function App() {
                 </p>
               </div>
             ) : viewMode === "cards" ? (
-              <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+              <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 items-stretch">
                 {displayedCars.map((car) => (
-                  <li key={car.id}>
-                    <Card className="overflow-hidden py-0 transition hover:-translate-y-0.5 hover:shadow-md">
-                      <div className="aspect-16/9 bg-muted">
+                  <li key={car.id} className="flex min-h-0">
+                    <Card className="grid h-full min-h-0 w-full grid-rows-[auto_1fr] gap-0 overflow-hidden py-0 transition hover:-translate-y-0.5 hover:shadow-md">
+                      <div className="aspect-16/9 shrink-0 bg-muted">
                         {!car.imageUrl || brokenImageIds.has(car.id) ? (
                           <div className="flex h-full items-center justify-center gap-2 text-sm text-muted-foreground">
                             <ImageOff className="size-4" />
@@ -1282,7 +1282,7 @@ function App() {
                         )}
                       </div>
 
-                      <CardContent className="p-4">
+                      <CardContent className="flex min-h-0 flex-1 flex-col gap-0 overflow-hidden p-4">
                         <p className="text-xs font-medium text-muted-foreground">
                           {integerFormatter.format(car.salesUnits12m)}{" "}
                           matriculaciones ({salesWindowMonths}m)
@@ -1334,7 +1334,7 @@ function App() {
                           </div>
                         </dl>
 
-                        <div className="mt-4 space-y-2">
+                        <div className="mt-auto pt-4 space-y-2">
                           <div>
                             <p className="text-xs text-muted-foreground">
                               Motores disponibles
