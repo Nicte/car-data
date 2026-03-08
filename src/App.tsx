@@ -238,7 +238,7 @@ const sortFieldLabels: Record<SortField, string> = {
   widthMm: "Anchura",
   trunkLiters: "Maletero",
 }
-const appName = "Rueda"
+const appName = "CarData"
 
 const integerFormatter = new Intl.NumberFormat("es-ES")
 const naText = "N/D"
@@ -838,33 +838,23 @@ function App() {
 
           <div className="relative z-10 grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-4">
                 <AppLogo />
                 <div>
-                  <p className="text-[10px] font-semibold tracking-[0.28em] text-cyan-200/80 uppercase">
-                    Market Radar
-                  </p>
                   <h1 className="text-3xl leading-none font-black tracking-tight sm:text-4xl">
                     {appName}
                   </h1>
+                  <p className="text-xs font-medium tracking-wide text-slate-400 mt-2">
+                    Menos humo, más datos
+                  </p>
                 </div>
               </div>
 
-              <p className="max-w-2xl text-sm text-slate-300 sm:text-base">
+              <p className="max-w-2xl text-sm text-slate-400 sm:text-base">
                 Comparador de coches en Espana con foco en matriculaciones
                 reales. Filtra, ordena y comparte cada vista directamente con la
                 URL.
               </p>
-
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="inline-flex items-center gap-1 rounded-full border border-cyan-300/30 bg-cyan-400/10 px-3 py-1 text-xs font-semibold text-cyan-100">
-                  <CarFront className="size-3.5" />
-                  Mercado espanol
-                </span>
-                <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-slate-200">
-                  Ventana: {salesWindowLabel}
-                </span>
-              </div>
             </div>
 
             <div className="grid gap-2 text-right text-sm sm:min-w-52">
