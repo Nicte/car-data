@@ -502,12 +502,26 @@ function AppLogo() {
     <div className="relative h-12 w-12 overflow-hidden rounded-2xl border border-white/25 bg-black/20 shadow-lg backdrop-blur-sm">
       <div className="absolute inset-0 bg-linear-to-br from-cyan-300 via-sky-400 to-emerald-400 opacity-85" />
       <div className="absolute inset-[3px] rounded-xl bg-slate-950/80" />
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="relative h-7 w-7">
-          <div className="absolute inset-0 rounded-full border-2 border-cyan-200/80" />
-          <div className="absolute inset-[7px] rounded-full bg-cyan-300" />
-          <div className="absolute top-1/2 left-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-slate-950" />
-        </div>
+      <div className="absolute inset-0 flex items-center justify-center p-1.5">
+        <svg viewBox="0 0 24 24" className="h-full w-full" fill="none">
+          {/* Car body */}
+          <path
+            d="M4 14h16v3a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-3z"
+            fill="currentColor"
+            className="text-cyan-300"
+          />
+          {/* Car profile */}
+          <path
+            d="M2 14h5V10a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v4h5"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            className="text-cyan-200"
+          />
+          {/* Data bars */}
+          <rect x="16" y="10" width="1.5" height="4" fill="currentColor" className="text-emerald-300" />
+          <rect x="18.5" y="8" width="1.5" height="6" fill="currentColor" className="text-emerald-400" />
+          <rect x="21" y="6" width="1.5" height="8" fill="currentColor" className="text-emerald-300" />
+        </svg>
       </div>
     </div>
   )
