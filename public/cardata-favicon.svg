@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="128" fill="#0f172a"/>
+  
+  <!-- Car profile silhouette -->
+  <g transform="translate(50, 100)">
+    <!-- Car body -->
+    <path d="M 30 60 L 20 45 Q 15 40 25 35 L 130 35 Q 140 40 135 45 L 125 60 Z" fill="#3b82f6" stroke="none"/>
+    <!-- Windows -->
+    <rect x="40" y="40" width="20" height="12" fill="#1e293b" opacity="0.6"/>
+    <rect x="80" y="40" width="25" height="12" fill="#1e293b" opacity="0.6"/>
+    <!-- Wheels -->
+    <circle cx="35" cy="65" r="8" fill="#475569"/>
+    <circle cx="120" cy="65" r="8" fill="#475569"/>
+    <!-- Wheel rims -->
+    <circle cx="35" cy="65" r="4" fill="#0f172a"/>
+    <circle cx="120" cy="65" r="4" fill="#0f172a"/>
+  </g>
+  
+  <!-- Data visualization: three vertical bars -->
+  <g transform="translate(155, 95)">
+    <rect x="0" y="20" width="6" height="35" fill="#10b981" opacity="0.8"/>
+    <rect x="12" y="10" width="6" height="45" fill="#10b981" opacity="0.9"/>
+    <rect x="24" y="15" width="6" height="40" fill="#10b981"/>
+  </g>
+  
+  <!-- Text badge -->
+  <text x="128" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">CarData</text>
+</svg>

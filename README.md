@@ -1,4 +1,4 @@
-# Car Comparison (Spain)
+# CarData – Menos humo, más datos
 
 A React + TypeScript app to compare popular car models in Spain with:
 
@@ -38,7 +38,7 @@ This repository is configured for GitHub Pages project-site hosting.
 - Repository: `Nicte/compara-coches`
 - Live URL: `https://nicte.github.io/compara-coches/`
 
-Deployment is automated through `.github/workflows/deploy-pages.yml` on every push to `main`.
+Deployment is automated through `.github/workflows/deploy-pages.yml` on every push to `master`.
 
 To enable it in GitHub:
 

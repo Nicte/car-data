@@ -1,7 +1,8 @@
 {
-  "name": "car-comparison",
+  "name": "cardata",
   "private": true,
   "version": "0.0.1",
+  "description": "Car comparison tool for Spain. Menos humo, más datos.",
   "type": "module",
   "scripts": {
     "dev": "vite",
