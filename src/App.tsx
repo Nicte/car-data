@@ -532,10 +532,7 @@ function toggleArrayValue<T extends string>(
   return items
 }
 
-function toggleSection(
-  sections: Set<string>,
-  sectionId: string
-): Set<string> {
+function toggleSection(sections: Set<string>, sectionId: string): Set<string> {
   const newSections = new Set(sections)
   if (newSections.has(sectionId)) {
     newSections.delete(sectionId)
@@ -662,17 +659,11 @@ function App() {
           return null
         }
 
-        if (
-          filters.brands.length > 0 &&
-          !filters.brands.includes(car.brand)
-        ) {
+        if (filters.brands.length > 0 && !filters.brands.includes(car.brand)) {
           return null
         }
 
-        if (
-          filters.models.length > 0 &&
-          !filters.models.includes(car.model)
-        ) {
+        if (filters.models.length > 0 && !filters.models.includes(car.model)) {
           return null
         }
 
@@ -1033,8 +1024,12 @@ function App() {
 
                 <div className="space-y-2">
                   <button
-                    onClick={() => setExpandedSections(toggleSection(expandedSections, "marca"))}
-                    className="flex w-full items-center justify-between rounded-lg hover:bg-accent/50 px-1 py-1 transition-colors"
+                    onClick={() =>
+                      setExpandedSections(
+                        toggleSection(expandedSections, "marca")
+                      )
+                    }
+                    className="flex w-full items-center justify-between rounded-lg px-1 py-1 transition-colors hover:bg-accent/50"
                   >
                     <p className="font-medium">Marca</p>
                     <ChevronDown
@@ -1061,11 +1056,13 @@ function App() {
                                   checked === true
                                 ),
                                 // Reset models if unchecking a brand
-                                models: checked === false
-                                  ? previous.models.filter(
-                                      (m) => !modelsByBrand[brand]?.includes(m)
-                                    )
-                                  : previous.models,
+                                models:
+                                  checked === false
+                                    ? previous.models.filter(
+                                        (m) =>
+                                          !modelsByBrand[brand]?.includes(m)
+                                      )
+                                    : previous.models,
                               }))
                             }
                           />
@@ -1079,8 +1076,12 @@ function App() {
                 {filters.brands.length > 0 && (
                   <div className="space-y-2">
                     <button
-                      onClick={() => setExpandedSections(toggleSection(expandedSections, "modelo"))}
-                      className="flex w-full items-center justify-between rounded-lg hover:bg-accent/50 px-1 py-1 transition-colors"
+                      onClick={() =>
+                        setExpandedSections(
+                          toggleSection(expandedSections, "modelo")
+                        )
+                      }
+                      className="flex w-full items-center justify-between rounded-lg px-1 py-1 transition-colors hover:bg-accent/50"
                     >
                       <p className="font-medium">Modelo</p>
                       <ChevronDown
@@ -1091,28 +1092,29 @@ function App() {
                     </button>
                     {expandedSections.has("modelo") && (
                       <div className="grid gap-2">
-                        {filters.brands.flatMap((brand) =>
-                          modelsByBrand[brand]?.map((model) => (
-                            <label
-                              key={model}
-                              className="inline-flex items-center gap-2"
-                            >
-                              <Checkbox
-                                checked={filters.models.includes(model)}
-                                onCheckedChange={(checked) =>
-                                  updateFilters((previous) => ({
-                                    ...previous,
-                                    models: toggleArrayValue(
-                                      previous.models,
-                                      model,
-                                      checked === true
-                                    ),
-                                  }))
-                                }
-                              />
-                              <span>{model}</span>
-                            </label>
-                          )) ?? []
+                        {filters.brands.flatMap(
+                          (brand) =>
+                            modelsByBrand[brand]?.map((model) => (
+                              <label
+                                key={model}
+                                className="inline-flex items-center gap-2"
+                              >
+                                <Checkbox
+                                  checked={filters.models.includes(model)}
+                                  onCheckedChange={(checked) =>
+                                    updateFilters((previous) => ({
+                                      ...previous,
+                                      models: toggleArrayValue(
+                                        previous.models,
+                                        model,
+                                        checked === true
+                                      ),
+                                    }))
+                                  }
+                                />
+                                <span>{model}</span>
+                              </label>
+                            )) ?? []
                         )}
                       </div>
                     )}
@@ -1122,8 +1124,12 @@ function App() {
                 {availablePowertrainOptions.length > 0 && (
                   <div className="space-y-2">
                     <button
-                      onClick={() => setExpandedSections(toggleSection(expandedSections, "motor"))}
-                      className="flex w-full items-center justify-between rounded-lg hover:bg-accent/50 px-1 py-1 transition-colors"
+                      onClick={() =>
+                        setExpandedSections(
+                          toggleSection(expandedSections, "motor")
+                        )
+                      }
+                      className="flex w-full items-center justify-between rounded-lg px-1 py-1 transition-colors hover:bg-accent/50"
                     >
                       <p className="font-medium">Tipo de motor</p>
                       <ChevronDown
@@ -1163,8 +1169,12 @@ function App() {
                 {availableTransmissionOptions.length > 0 && (
                   <div className="space-y-2">
                     <button
-                      onClick={() => setExpandedSections(toggleSection(expandedSections, "cambio"))}
-                      className="flex w-full items-center justify-between rounded-lg hover:bg-accent/50 px-1 py-1 transition-colors"
+                      onClick={() =>
+                        setExpandedSections(
+                          toggleSection(expandedSections, "cambio")
+                        )
+                      }
+                      className="flex w-full items-center justify-between rounded-lg px-1 py-1 transition-colors hover:bg-accent/50"
                     >
                       <p className="font-medium">Cambio</p>
                       <ChevronDown
@@ -1204,8 +1214,12 @@ function App() {
                 {availableDgtLabelOptions.length > 0 && (
                   <div className="space-y-2">
                     <button
-                      onClick={() => setExpandedSections(toggleSection(expandedSections, "etiqueta"))}
-                      className="flex w-full items-center justify-between rounded-lg hover:bg-accent/50 px-1 py-1 transition-colors"
+                      onClick={() =>
+                        setExpandedSections(
+                          toggleSection(expandedSections, "etiqueta")
+                        )
+                      }
+                      className="flex w-full items-center justify-between rounded-lg px-1 py-1 transition-colors hover:bg-accent/50"
                     >
                       <p className="font-medium">Etiqueta ambiental</p>
                       <ChevronDown
@@ -1245,8 +1259,12 @@ function App() {
                 {availableBodyTypeOptions.length > 0 && (
                   <div className="space-y-2">
                     <button
-                      onClick={() => setExpandedSections(toggleSection(expandedSections, "carroceria"))}
-                      className="flex w-full items-center justify-between rounded-lg hover:bg-accent/50 px-1 py-1 transition-colors"
+                      onClick={() =>
+                        setExpandedSections(
+                          toggleSection(expandedSections, "carroceria")
+                        )
+                      }
+                      className="flex w-full items-center justify-between rounded-lg px-1 py-1 transition-colors hover:bg-accent/50"
                     >
                       <p className="font-medium">Tipo de carroceria</p>
                       <ChevronDown
