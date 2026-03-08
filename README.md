@@ -35,10 +35,10 @@ pnpm build
 
 This repository is configured for GitHub Pages project-site hosting.
 
-- Repository: `Nicte/compara-coches`
-- Live URL: `https://nicte.github.io/compara-coches/`
+- Repository: `Nicte/car-data`
+- Live URL: `https://nicte.github.io/car-data/`
 
-Deployment is automated through `.github/workflows/deploy-pages.yml` on every push to `master`.
+Deployment is automated through `.github/workflows/deploy-pages.yml` on every push to `main`.
 
 To enable it in GitHub:
 
