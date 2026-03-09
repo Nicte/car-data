@@ -386,7 +386,7 @@ export const carMetadataById: Record<string, CarMetadata> = {
     widthMm: 1800,
     trunkLiters: 395,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2023_Kia_Ceed_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c6/2018_Kia_Ceed_First_Edition_1.4_Front.jpg",
   },
   "volkswagen-golf": {
     bodyType: "compacto",
@@ -558,7 +558,7 @@ export const carMetadataById: Record<string, CarMetadata> = {
     widthMm: 1840,
     trunkLiters: 405,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Omoda_5_2024.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chery%20Omoda%205%20003.jpg",
   },
   "omoda-omoda-9-phev": {
     bodyType: "suv-compacto",
@@ -574,7 +574,7 @@ export const carMetadataById: Record<string, CarMetadata> = {
     widthMm: 1900,
     trunkLiters: 460,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Omoda_9_2024.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Omoda%209%20IAA%202025%20DSC%202242.jpg",
   },
   "jaecoo-jaecoo7-phev": {
     bodyType: "suv-compacto",
@@ -590,7 +590,7 @@ export const carMetadataById: Record<string, CarMetadata> = {
     widthMm: 1850,
     trunkLiters: 420,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Jaecoo_7_2024.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Jaecoo%207%20front%20view%2001.png",
   },
   "ebro-s700": {
     versions: [
@@ -605,7 +605,7 @@ export const carMetadataById: Record<string, CarMetadata> = {
     widthMm: 2050,
     trunkLiters: 13800,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/EBRO_Trucks.svg",
+      "https://cdn.prod.website-files.com/672341df822e37f60ade73da/69426d34f56fa477167f5c98_img_home_S700.png",
   },
   "ebro-s400-hev": {
     versions: [
@@ -620,7 +620,7 @@ export const carMetadataById: Record<string, CarMetadata> = {
     widthMm: 2050,
     trunkLiters: 10000,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/EBRO_Trucks.svg",
+      "https://cdn.prod.website-files.com/672341df822e37f60ade73da/69426d332784ebf707e73ac9_img_home_S400_HEV.png",
   },
   "seat-seat-leon": {
     bodyType: "compacto",

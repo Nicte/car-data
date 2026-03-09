@@ -106,7 +106,9 @@ function toDisplayModel(brand: string, model: string) {
           : token
               .split("-")
               .map((part) =>
-                part.length <= 2 ? part.toUpperCase() : part.charAt(0).toUpperCase() + part.slice(1)
+                part.length <= 2
+                  ? part.toUpperCase()
+                  : part.charAt(0).toUpperCase() + part.slice(1)
               )
               .join("-")
       }
@@ -118,9 +120,28 @@ function toDisplayModel(brand: string, model: string) {
     .join(" ")
 }
 
+function resolveImageUrl(modelId: string) {
+  const autoImageUrl = carMetadataAutoById[modelId]?.imageUrl
+  const manualImageUrl = carMetadataById[modelId]?.imageUrl
+
+  // Some manual cache entries still point to Wikimedia thumb paths that fail at runtime.
+  const manualIsWikimediaThumb =
+    typeof manualImageUrl === "string" &&
+    /upload\.wikimedia\.org\/wikipedia\/commons\/thumb\//.test(manualImageUrl)
+
+  if (manualImageUrl && !manualIsWikimediaThumb) {
+    return manualImageUrl
+  }
+
+  return autoImageUrl ?? manualImageUrl
+}
+
 export const carsSpainTopSalesRolling12m: Car[] = rollingSalesTopModels.map(
   (model) => {
-    const metadata = { ...carMetadataAutoById[model.id], ...carMetadataById[model.id] }
+    const metadata = {
+      ...carMetadataAutoById[model.id],
+      ...carMetadataById[model.id],
+    }
     return {
       id: model.id,
       brand: toDisplayBrand(model.brand),
@@ -132,7 +153,7 @@ export const carsSpainTopSalesRolling12m: Car[] = rollingSalesTopModels.map(
       lengthMm: metadata?.lengthMm,
       widthMm: metadata?.widthMm,
       trunkLiters: metadata?.trunkLiters,
-      imageUrl: metadata?.imageUrl,
+      imageUrl: resolveImageUrl(model.id),
     }
   }
 )
@@ -145,11 +166,13 @@ export const salesWindowLabel = rollingSalesLabel
 
 export const dataSources = {
   salesRanking: {
-    title: "DGT - Microdatos de Matriculaciones de Vehiculos (mensual, acceso a listados)",
+    title:
+      "DGT - Microdatos de Matriculaciones de Vehiculos (mensual, acceso a listados)",
     url: "https://www.dgt.es/menusecundario/dgt-en-cifras/matraba-listados/matriculaciones-automoviles-mensual.html",
   },
   modelMetadata: {
-    title: "Cache local de metadatos (manual + auto) basada en Automobile Dimension, marcas y Wikipedia",
+    title:
+      "Cache local de metadatos (manual + auto) basada en Automobile Dimension, marcas y Wikipedia",
     url: "https://www.automobiledimension.com/",
   },
 } as const
