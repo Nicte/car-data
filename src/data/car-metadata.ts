@@ -937,6 +937,14 @@ export const carMetadataById: Record<string, CarMetadata> = {
   },
   "byd-byd-dolphin-surf": {
     bodyType: "utilitario",
+    versions: [
+      {
+        id: "dolphin-surf-comfort",
+        powertrain: "electric",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
     lengthMm: 3990,
     widthMm: 1720,
     trunkLiters: 308,
@@ -944,6 +952,14 @@ export const carMetadataById: Record<string, CarMetadata> = {
   },
   "byd-byd-seal-u-dm-i": {
     bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "seal-u-dm-i-comfort",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
     lengthMm: 4785,
     widthMm: 1890,
     trunkLiters: 425,
@@ -1125,6 +1141,14 @@ export const carMetadataById: Record<string, CarMetadata> = {
   },
   "mercedes-benz-gla-250-e": {
     bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "gla-250-e",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
     lengthMm: 4410,
     widthMm: 1834,
     trunkLiters: 435,
@@ -1133,6 +1157,14 @@ export const carMetadataById: Record<string, CarMetadata> = {
   },
   "mercedes-benz-glc-220-d-4matic": {
     bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "glc-220-d-4matic",
+        powertrain: "mhev",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+    ],
     lengthMm: 4731,
     widthMm: 1890,
     trunkLiters: 500,
@@ -1141,6 +1173,14 @@ export const carMetadataById: Record<string, CarMetadata> = {
   },
   "mercedes-benz-glc-300-de-4matic": {
     bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "glc-300-de-4matic",
+        powertrain: "phev",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
     lengthMm: 4731,
     widthMm: 1890,
     trunkLiters: 500,
@@ -1322,6 +1362,14 @@ export const carMetadataById: Record<string, CarMetadata> = {
   },
   "tesla-model-y": {
     bodyType: "suv-compacto",
+    versions: [
+      {
+        id: "model-y-standard",
+        powertrain: "electric",
+        transmission: "automatic",
+        dgtLabel: "CERO",
+      },
+    ],
     lengthMm: 4790,
     widthMm: 1920,
     trunkLiters: 971,
@@ -1330,6 +1378,14 @@ export const carMetadataById: Record<string, CarMetadata> = {
   },
   "toyota-toyota-aygo-x": {
     bodyType: "utilitario",
+    versions: [
+      {
+        id: "aygo-x-cross-hybrid",
+        powertrain: "hybrid",
+        transmission: "automatic",
+        dgtLabel: "ECO",
+      },
+    ],
     lengthMm: 3776,
     widthMm: 1740,
     trunkLiters: 231,
