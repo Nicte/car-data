@@ -7,6 +7,7 @@ import {
 } from "@/data/sales-rolling-12m"
 import { carMetadataById } from "@/data/car-metadata"
 import { carMetadataAutoById } from "@/data/car-metadata-auto"
+import { carMetadataVersionsAutoById } from "@/data/car-metadata-versions-auto"
 import { spanishToCanonicalMappingById } from "@/data/spanish-to-canonical-mapping"
 
 export type PowertrainType =
@@ -145,6 +146,7 @@ export const carsSpainTopSalesRolling12m: Car[] = (() => {
   for (const model of rollingSalesTopModels) {
     const metadata = {
       ...carMetadataAutoById[model.id],
+      ...carMetadataVersionsAutoById[model.id],
       ...carMetadataById[model.id],
     }
     const mapping = spanishToCanonicalMappingById[model.id]
@@ -240,7 +242,7 @@ export const dataSources = {
   },
   modelMetadata: {
     title:
-      "Cache local de metadatos (manual + auto) basada en Automobile Dimension, marcas y Wikipedia",
+      "Cache local de metadatos (manual + auto) basada en Automobile Dimension, QueCocheMeCompro, marcas y Wikipedia",
     url: "https://www.automobiledimension.com/",
   },
 } as const

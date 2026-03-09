@@ -27,6 +27,8 @@ dist-ssr
 data/dgt/manifest*.csv
 data/dgt/**/*.zip
 data/dgt_test/
+# Generated enrichment report (not used at runtime)
+data/qcm-versions-metadata.json
 # Environment variables
 .env
 .env.local

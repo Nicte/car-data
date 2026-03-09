@@ -17,8 +17,9 @@
     "data:refresh-source-of-truth": "python3 scripts/fetch_brand_models_source_of_truth.py",
     "data:match-spanish-models": "python3 scripts/match_spanish_models.py",
     "data:fetch-metadata": "python3 scripts/fetch_car_metadata.py",
+    "data:fetch-qcm-versions": "node scripts/fetch_qcm_versions_metadata.mjs",
     "data:fetch-missing-metadata": "pnpm run data:fetch-metadata",
-    "data:update-all": "pnpm run data:update-rolling-sales && pnpm run data:refresh-source-of-truth && pnpm run data:match-spanish-models && pnpm run data:fetch-metadata"
+    "data:update-all": "pnpm run data:update-rolling-sales && pnpm run data:refresh-source-of-truth && pnpm run data:match-spanish-models && pnpm run data:fetch-metadata && pnpm run data:fetch-qcm-versions"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",

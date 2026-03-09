@@ -85,6 +85,12 @@ Fetch/update auto metadata from canonical mappings:
 pnpm run data:fetch-metadata
 ```
 
+Fetch gearbox/DGT-label version metadata for models that still miss `versions` (source priority: coches.com -> km77.com -> QueCocheMeCompro fallback):
+
+```bash
+pnpm run data:fetch-qcm-versions
+```
+
 Run full data refresh pipeline:
 
 ```bash
@@ -98,6 +104,7 @@ pnpm run data:update-all
 - `scripts/fetch_brand_models_source_of_truth.py`: scrapes all brands/models from automobiledimension.com into `data/automobiledimension-brand-models.json`, detects newly added/removed models on each run (see `scripts/README_BRAND_MODEL_SCRAPER.md`).
 - `scripts/match_spanish_models.py`: maps Spanish sales model IDs to canonical model URLs and writes JSON/TypeScript mapping outputs.
 - `scripts/fetch_car_metadata.py`: fetches metadata for matched canonical models only and caches by canonical model URL.
+- `scripts/fetch_qcm_versions_metadata.mjs`: enriches missing version metadata (`motor`, `cambio`, `etiqueta`) using a multi-source fallback chain (coches.com first, then km77.com, then QueCocheMeCompro).
 - `src/data/sales-rolling-12m.ts`: generated rolling sales dataset used by the UI.
 - `data/spanish-to-canonical-mapping.json`: Spanish ID to canonical Automobile Dimension model mapping.
 - `data/car-metadata-auto-cache.json`: auto metadata cache keyed by canonical model URL.
