@@ -29,6 +29,10 @@ export type CarMetadata = {
   widthMm?: number
   trunkLiters?: number
   imageUrl?: string
+  canonicalModelId?: string
+  canonicalBrand?: string
+  canonicalModel?: string
+  canonicalName?: string
 }
 
 // Persistent metadata cache keyed by generated rollingSalesTopModels ids.

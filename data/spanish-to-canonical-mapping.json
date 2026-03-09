@@ -1,0 +1,1002 @@
+{
+  "audi-a1-sportback": {
+    "modelUrl": "https://www.automobiledimension.com/model/audi/a1-sportback",
+    "canonicalModelId": "audi-a1-sportback",
+    "canonicalBrand": "AUDI",
+    "canonicalModel": "A 1 Sportback",
+    "canonicalName": "Audi A1 Sportback",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.699729+00:00"
+  },
+  "audi-a3-sportback": {
+    "modelUrl": "https://www.automobiledimension.com/model/audi/a3-allstreet",
+    "canonicalModelId": "audi-a3-allstreet",
+    "canonicalBrand": "AUDI",
+    "canonicalModel": "A 3 Sportback",
+    "canonicalName": "Audi A3 Sportback",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.697964+00:00"
+  },
+  "audi-q2": {
+    "modelUrl": "https://www.automobiledimension.com/model/audi/q2",
+    "canonicalModelId": "audi-q2",
+    "canonicalBrand": "AUDI",
+    "canonicalModel": "Q 2",
+    "canonicalName": "Audi Q2",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.716783+00:00"
+  },
+  "audi-q3": {
+    "modelUrl": "https://www.automobiledimension.com/model/audi/q3",
+    "canonicalModelId": "audi-q3",
+    "canonicalBrand": "AUDI",
+    "canonicalModel": "Q 3 2026",
+    "canonicalName": "New Audi Q3 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.742734+00:00"
+  },
+  "audi-q3-sportback": {
+    "modelUrl": "https://www.automobiledimension.com/model/audi/q3",
+    "canonicalModelId": "audi-q3",
+    "canonicalBrand": "AUDI",
+    "canonicalModel": "Q 3 2026",
+    "canonicalName": "New Audi Q3 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.712788+00:00"
+  },
+  "bmw-x1-sdrive20d": {
+    "modelUrl": "https://www.automobiledimension.com/model/bmw/x1",
+    "canonicalModelId": "bmw-x1",
+    "canonicalBrand": "BMW",
+    "canonicalModel": "X 1",
+    "canonicalName": "BMW X1",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.725106+00:00"
+  },
+  "byd-byd-dolphin-surf": {
+    "modelUrl": "https://www.automobiledimension.com/model/byd/dolphin-surf",
+    "canonicalModelId": "byd-dolphin-surf",
+    "canonicalBrand": "BYD",
+    "canonicalModel": "Dolphin Surf",
+    "canonicalName": "BYD Dolphin Surf",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.735798+00:00"
+  },
+  "byd-byd-seal-u-dm-i": {
+    "modelUrl": "https://www.automobiledimension.com/model/byd/seal",
+    "canonicalModelId": "byd-seal",
+    "canonicalBrand": "BYD",
+    "canonicalModel": "Seal",
+    "canonicalName": "BYD Seal",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.684541+00:00"
+  },
+  "citroen-nuevo-c4-hybrid-136": {
+    "modelUrl": "https://www.automobiledimension.com/model/citroen/c4",
+    "canonicalModelId": "citroen-c4",
+    "canonicalBrand": "CITROEN",
+    "canonicalModel": "C 4",
+    "canonicalName": "Citroën C4",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.740571+00:00"
+  },
+  "citroen-nuevo-c4-hybrid-145": {
+    "modelUrl": "https://www.automobiledimension.com/model/citroen/c4",
+    "canonicalModelId": "citroen-c4",
+    "canonicalBrand": "CITROEN",
+    "canonicalModel": "C 4",
+    "canonicalName": "Citroën C4",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.692938+00:00"
+  },
+  "citroen-nuevo-citro-n-c3-aircr": {
+    "modelUrl": "https://www.automobiledimension.com/model/citroen/c3",
+    "canonicalModelId": "citroen-c3",
+    "canonicalBrand": "CITROEN",
+    "canonicalModel": "C 3",
+    "canonicalName": "Citroën C3",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.714886+00:00"
+  },
+  "citroen-nuevo-citro-n-c3-turbo": {
+    "modelUrl": "https://www.automobiledimension.com/model/citroen/c3",
+    "canonicalModelId": "citroen-c3",
+    "canonicalBrand": "CITROEN",
+    "canonicalModel": "C 3",
+    "canonicalName": "Citroën C3",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.695145+00:00"
+  },
+  "cupra-cupra-leon": {
+    "modelUrl": "https://www.automobiledimension.com/model/cupra/leon-",
+    "canonicalModelId": "cupra-leon-",
+    "canonicalBrand": "CUPRA",
+    "canonicalModel": "Leon",
+    "canonicalName": "CUPRA Leon",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.715783+00:00"
+  },
+  "cupra-formentor": {
+    "modelUrl": "https://www.automobiledimension.com/model/cupra/formentor",
+    "canonicalModelId": "cupra-formentor",
+    "canonicalBrand": "CUPRA",
+    "canonicalModel": "Formentor",
+    "canonicalName": "CUPRA Formentor",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.702456+00:00"
+  },
+  "cupra-formentor-e-hybrid": {
+    "modelUrl": "https://www.automobiledimension.com/model/cupra/formentor",
+    "canonicalModelId": "cupra-formentor",
+    "canonicalBrand": "CUPRA",
+    "canonicalModel": "Formentor",
+    "canonicalName": "CUPRA Formentor",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.730789+00:00"
+  },
+  "cupra-terramar-e-hybrid": {
+    "modelUrl": "https://www.automobiledimension.com/model/cupra/terramar",
+    "canonicalModelId": "cupra-terramar",
+    "canonicalBrand": "CUPRA",
+    "canonicalModel": "Terramar",
+    "canonicalName": "CUPRA Terramar",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.745822+00:00"
+  },
+  "dacia-bigster": {
+    "modelUrl": "https://www.automobiledimension.com/model/dacia/bigster",
+    "canonicalModelId": "dacia-bigster",
+    "canonicalBrand": "DACIA",
+    "canonicalModel": "Bigster",
+    "canonicalName": "Dacia Bigster",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.718864+00:00"
+  },
+  "dacia-duster": {
+    "modelUrl": "https://www.automobiledimension.com/model/dacia/duster",
+    "canonicalModelId": "dacia-duster",
+    "canonicalBrand": "DACIA",
+    "canonicalModel": "Duster",
+    "canonicalName": "Dacia Duster",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.667362+00:00"
+  },
+  "dacia-jogger": {
+    "modelUrl": "https://www.automobiledimension.com/model/dacia/jogger",
+    "canonicalModelId": "dacia-jogger",
+    "canonicalBrand": "DACIA",
+    "canonicalModel": "Jogger",
+    "canonicalName": "Dacia Jogger",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.705449+00:00"
+  },
+  "dacia-sandero": {
+    "modelUrl": "https://www.automobiledimension.com/model/dacia/sandero",
+    "canonicalModelId": "dacia-sandero",
+    "canonicalBrand": "DACIA",
+    "canonicalModel": "Sandero 2026",
+    "canonicalName": "New Dacia Sandero 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.649270+00:00"
+  },
+  "ebro-s400-hev": {
+    "modelUrl": "https://www.ebroauto.com/ebro-modelos/s400",
+    "canonicalModelId": "ebro-modelos-s400",
+    "canonicalBrand": "EBRO",
+    "canonicalModel": "S 400 Hev",
+    "canonicalName": "EBRO s400 HEV",
+    "matchConfidence": "high",
+    "matchMethod": "manual",
+    "matchedAt": "2026-03-09T16:36:25.735800+00:00"
+  },
+  "ebro-s700": {
+    "modelUrl": "https://www.ebroauto.com/modelos/ebro-s700-combustion",
+    "canonicalModelId": "modelos-ebro-s700-combustion",
+    "canonicalBrand": "EBRO",
+    "canonicalModel": "S 700",
+    "canonicalName": "EBRO s700",
+    "matchConfidence": "high",
+    "matchMethod": "manual",
+    "matchedAt": "2026-03-09T16:36:25.731875+00:00"
+  },
+  "fiat-600": {
+    "modelUrl": "https://www.automobiledimension.com/model/fiat/600",
+    "canonicalModelId": "fiat-600",
+    "canonicalBrand": "FIAT",
+    "canonicalModel": "600",
+    "canonicalName": "Fiat 600",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.713709+00:00"
+  },
+  "fiat-panda": {
+    "modelUrl": "https://www.automobiledimension.com/model/fiat/panda",
+    "canonicalModelId": "fiat-panda",
+    "canonicalBrand": "FIAT",
+    "canonicalModel": "Panda",
+    "canonicalName": "Fiat Panda",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.741454+00:00"
+  },
+  "ford-focus": {
+    "modelUrl": "https://www.automobiledimension.com/model/ford/focus",
+    "canonicalModelId": "ford-focus",
+    "canonicalBrand": "FORD",
+    "canonicalModel": "Focus",
+    "canonicalName": "Ford Focus",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.700707+00:00"
+  },
+  "ford-kuga": {
+    "modelUrl": "https://www.automobiledimension.com/model/ford/kuga",
+    "canonicalModelId": "ford-kuga",
+    "canonicalBrand": "FORD",
+    "canonicalModel": "Kuga",
+    "canonicalName": "Ford Kuga",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.678781+00:00"
+  },
+  "ford-puma": {
+    "modelUrl": "https://www.automobiledimension.com/model/ford/puma",
+    "canonicalModelId": "ford-puma",
+    "canonicalBrand": "FORD",
+    "canonicalModel": "Puma",
+    "canonicalName": "Ford Puma",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.682640+00:00"
+  },
+  "hyundai-bayon": {
+    "modelUrl": "https://www.automobiledimension.com/model/hyundai/bayon",
+    "canonicalModelId": "hyundai-bayon",
+    "canonicalBrand": "HYUNDAI",
+    "canonicalModel": "Bayon",
+    "canonicalName": "Hyundai Bayon",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.719789+00:00"
+  },
+  "hyundai-i-30": {
+    "modelUrl": "https://www.automobiledimension.com/model/hyundai/i30",
+    "canonicalModelId": "hyundai-i30",
+    "canonicalBrand": "HYUNDAI",
+    "canonicalModel": "I 30",
+    "canonicalName": "Hyundai i30",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.748040+00:00"
+  },
+  "hyundai-i10": {
+    "modelUrl": "https://www.automobiledimension.com/model/hyundai/i10",
+    "canonicalModelId": "hyundai-i10",
+    "canonicalBrand": "HYUNDAI",
+    "canonicalModel": "I 10",
+    "canonicalName": "Hyundai i10",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.698840+00:00"
+  },
+  "hyundai-i20": {
+    "modelUrl": "https://www.automobiledimension.com/model/hyundai/i20",
+    "canonicalModelId": "hyundai-i20",
+    "canonicalBrand": "HYUNDAI",
+    "canonicalModel": "I 20",
+    "canonicalName": "Hyundai i20",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.671851+00:00"
+  },
+  "hyundai-kona": {
+    "modelUrl": "https://www.automobiledimension.com/model/hyundai/kona",
+    "canonicalModelId": "hyundai-kona",
+    "canonicalBrand": "HYUNDAI",
+    "canonicalModel": "Kona",
+    "canonicalName": "Hyundai Kona",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.665397+00:00"
+  },
+  "hyundai-tucson": {
+    "modelUrl": "https://www.automobiledimension.com/model/hyundai/tucson",
+    "canonicalModelId": "hyundai-tucson",
+    "canonicalBrand": "HYUNDAI",
+    "canonicalModel": "Tucson",
+    "canonicalName": "Hyundai Tucson",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.655855+00:00"
+  },
+  "jaecoo-jaecoo7-phev": {
+    "modelUrl": "https://www.omodajaecoo.es/modelos/jaecoo-7/hibrido-ficha-tecnica",
+    "canonicalModelId": "jaecoo-7-hibrido-ficha-tecnica",
+    "canonicalBrand": "JAECOO",
+    "canonicalModel": "7 Shs",
+    "canonicalName": "JAECOO 7 SHS",
+    "matchConfidence": "high",
+    "matchMethod": "manual",
+    "matchedAt": "2026-03-09T16:36:25.700712+00:00"
+  },
+  "jeep-avenger": {
+    "modelUrl": "https://www.automobiledimension.com/model/jeep/avenger",
+    "canonicalModelId": "jeep-avenger",
+    "canonicalBrand": "JEEP",
+    "canonicalModel": "Avenger",
+    "canonicalName": "Jeep Avenger",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.687673+00:00"
+  },
+  "kia-ceed": {
+    "modelUrl": "https://www.automobiledimension.com/model/kia/ceed",
+    "canonicalModelId": "kia-ceed",
+    "canonicalBrand": "KIA",
+    "canonicalModel": "Ceed 2022",
+    "canonicalName": "Kia Ceed 2022",
+    "matchConfidence": "high",
+    "matchMethod": "manual",
+    "matchedAt": "2026-03-09T16:36:25.720995+00:00"
+  },
+  "kia-ev3": {
+    "modelUrl": "https://www.automobiledimension.com/model/kia/ev3",
+    "canonicalModelId": "kia-ev3",
+    "canonicalBrand": "KIA",
+    "canonicalModel": "EV 3",
+    "canonicalName": "Kia EV3",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.711378+00:00"
+  },
+  "kia-niro": {
+    "modelUrl": "https://www.automobiledimension.com/model/kia/niro",
+    "canonicalModelId": "kia-niro",
+    "canonicalBrand": "KIA",
+    "canonicalModel": "Niro",
+    "canonicalName": "Kia Niro",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.680737+00:00"
+  },
+  "kia-sportage": {
+    "modelUrl": "https://www.automobiledimension.com/model/kia/sportage",
+    "canonicalModelId": "kia-sportage",
+    "canonicalBrand": "KIA",
+    "canonicalModel": "Sportage 2026",
+    "canonicalName": "New Kia Sportage 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.663489+00:00"
+  },
+  "kia-stonic": {
+    "modelUrl": "https://www.automobiledimension.com/model/kia/stonic",
+    "canonicalModelId": "kia-stonic",
+    "canonicalBrand": "KIA",
+    "canonicalModel": "Stonic 2026",
+    "canonicalName": "New Kia Stonic 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.668549+00:00"
+  },
+  "kia-xceed": {
+    "modelUrl": "https://www.automobiledimension.com/model/kia/xceed",
+    "canonicalModelId": "kia-xceed",
+    "canonicalBrand": "KIA",
+    "canonicalModel": "Xceed",
+    "canonicalName": "Kia XCeed",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.709266+00:00"
+  },
+  "lexus-lexus-lbx": {
+    "modelUrl": "https://www.automobiledimension.com/model/lexus/lbx",
+    "canonicalModelId": "lexus-lbx",
+    "canonicalBrand": "LEXUS",
+    "canonicalModel": "Lbx",
+    "canonicalName": "Lexus LBX",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.743620+00:00"
+  },
+  "mazda-mazda-cx-30": {
+    "modelUrl": "https://www.automobiledimension.com/model/mazda/cx-30",
+    "canonicalModelId": "mazda-cx-30",
+    "canonicalBrand": "MAZDA",
+    "canonicalModel": "CX 30",
+    "canonicalName": "Mazda CX-30",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.691776+00:00"
+  },
+  "mazda-mazda3": {
+    "modelUrl": "https://www.automobiledimension.com/model/mazda/3",
+    "canonicalModelId": "mazda-3",
+    "canonicalBrand": "MAZDA",
+    "canonicalModel": "3",
+    "canonicalName": "Mazda 3",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.732743+00:00"
+  },
+  "mercedes-benz-gla-250-e": {
+    "modelUrl": "https://www.automobiledimension.com/model/mercedes-benz/gla",
+    "canonicalModelId": "mercedes-benz-gla",
+    "canonicalBrand": "MERCEDES BENZ",
+    "canonicalModel": "Gla",
+    "canonicalName": "Mercedes-Benz GLA",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.739335+00:00"
+  },
+  "mercedes-benz-glc-220-d-4matic": {
+    "modelUrl": "https://www.automobiledimension.com/model/mercedes-benz/glc-coupe",
+    "canonicalModelId": "mercedes-benz-glc-coupe",
+    "canonicalBrand": "MERCEDES BENZ",
+    "canonicalModel": "Glc Coupe",
+    "canonicalName": "Mercedes-Benz GLC Coupé",
+    "matchConfidence": "medium",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.723685+00:00"
+  },
+  "mercedes-benz-glc-300-de-4matic": {
+    "modelUrl": "https://www.automobiledimension.com/model/mercedes-benz/glc-coupe",
+    "canonicalModelId": "mercedes-benz-glc-coupe",
+    "canonicalBrand": "MERCEDES BENZ",
+    "canonicalModel": "Glc Coupe",
+    "canonicalName": "Mercedes-Benz GLC Coupé",
+    "matchConfidence": "medium",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.708251+00:00"
+  },
+  "mg-mg-hs": {
+    "modelUrl": "https://www.automobiledimension.com/model/mg/hs",
+    "canonicalModelId": "mg-hs",
+    "canonicalBrand": "MG",
+    "canonicalModel": "HS",
+    "canonicalName": "MG HS",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.679702+00:00"
+  },
+  "mg-mg-zs": {
+    "modelUrl": "https://www.automobiledimension.com/model/mg/zs",
+    "canonicalModelId": "mg-zs",
+    "canonicalBrand": "MG",
+    "canonicalModel": "ZS",
+    "canonicalName": "MG ZS",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.652900+00:00"
+  },
+  "mg-mg3": {
+    "modelUrl": "https://www.automobiledimension.com/model/mg/mg3",
+    "canonicalModelId": "mg-mg3",
+    "canonicalBrand": "MG",
+    "canonicalModel": "MG 3",
+    "canonicalName": "MG MG3",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.736722+00:00"
+  },
+  "mg-mg3-hybrid": {
+    "modelUrl": "https://www.automobiledimension.com/model/mg/mg3",
+    "canonicalModelId": "mg-mg3",
+    "canonicalBrand": "MG",
+    "canonicalModel": "MG 3",
+    "canonicalName": "MG MG3",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.703466+00:00"
+  },
+  "nissan-nissan-juke": {
+    "modelUrl": "https://www.automobiledimension.com/model/nissan/juke",
+    "canonicalModelId": "nissan-juke",
+    "canonicalBrand": "NISSAN",
+    "canonicalModel": "Juke",
+    "canonicalName": "Nissan Juke",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.683516+00:00"
+  },
+  "nissan-nissan-qashqai": {
+    "modelUrl": "https://www.automobiledimension.com/model/nissan/qashqai",
+    "canonicalModelId": "nissan-qashqai",
+    "canonicalBrand": "NISSAN",
+    "canonicalModel": "Qashqai",
+    "canonicalName": "Nissan Qashqai",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.657797+00:00"
+  },
+  "nissan-nissan-x-trail": {
+    "modelUrl": "https://www.automobiledimension.com/model/nissan/x-trail",
+    "canonicalModelId": "nissan-x-trail",
+    "canonicalBrand": "NISSAN",
+    "canonicalModel": "X Trail",
+    "canonicalName": "Nissan X-Trail",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.728143+00:00"
+  },
+  "omoda-omoda-9-phev": {
+    "modelUrl": "https://www.omodajaecoo.es/modelos/omoda-9/hibrido-ficha-tecnica",
+    "canonicalModelId": "omoda-9-hibrido-ficha-tecnica",
+    "canonicalBrand": "OMODA",
+    "canonicalModel": "9 Shs",
+    "canonicalName": "OMODA 9 SHS",
+    "matchConfidence": "high",
+    "matchMethod": "manual",
+    "matchedAt": "2026-03-09T16:36:25.741457+00:00"
+  },
+  "omoda-omoda5": {
+    "modelUrl": "https://www.omodajaecoo.es/modelos/omoda-5/gasolina-ficha-tecnica",
+    "canonicalModelId": "omoda-5-gasolina-ficha-tecnica",
+    "canonicalBrand": "OMODA",
+    "canonicalModel": "5 Gasolina",
+    "canonicalName": "OMODA 5 Gasolina",
+    "matchConfidence": "high",
+    "matchMethod": "manual",
+    "matchedAt": "2026-03-09T16:36:25.690885+00:00"
+  },
+  "opel-corsa-edition-1-2t-xhl": {
+    "modelUrl": "https://www.automobiledimension.com/model/opel/corsa",
+    "canonicalModelId": "opel-corsa",
+    "canonicalBrand": "OPEL",
+    "canonicalModel": "Corsa",
+    "canonicalName": "Opel Corsa",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.720988+00:00"
+  },
+  "opel-corsa-gs-1-2t-xhl-mt6": {
+    "modelUrl": "https://www.automobiledimension.com/model/opel/corsa",
+    "canonicalModelId": "opel-corsa",
+    "canonicalBrand": "OPEL",
+    "canonicalModel": "Corsa",
+    "canonicalName": "Opel Corsa",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.685630+00:00"
+  },
+  "peugeot-2008-allure-gasolina-1": {
+    "modelUrl": "https://www.automobiledimension.com/model/peugeot/2008",
+    "canonicalModelId": "peugeot-2008",
+    "canonicalBrand": "PEUGEOT",
+    "canonicalModel": "2008",
+    "canonicalName": "Peugeot 2008",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.706644+00:00"
+  },
+  "peugeot-2008-allure-hybrid-145": {
+    "modelUrl": "https://www.automobiledimension.com/model/peugeot/2008",
+    "canonicalModelId": "peugeot-2008",
+    "canonicalBrand": "PEUGEOT",
+    "canonicalModel": "2008",
+    "canonicalName": "Peugeot 2008",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.686764+00:00"
+  },
+  "peugeot-208-5p-allure-gasolina": {
+    "modelUrl": "https://www.automobiledimension.com/model/peugeot/208",
+    "canonicalModelId": "peugeot-208",
+    "canonicalBrand": "PEUGEOT",
+    "canonicalModel": "208",
+    "canonicalName": "Peugeot 208",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.677788+00:00"
+  },
+  "peugeot-208-5p-allure-hybrid-1": {
+    "modelUrl": "https://www.automobiledimension.com/model/peugeot/208",
+    "canonicalModelId": "peugeot-208",
+    "canonicalBrand": "PEUGEOT",
+    "canonicalModel": "208",
+    "canonicalName": "Peugeot 208",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.717942+00:00"
+  },
+  "peugeot-nuevo-3008-allure-hybr": {
+    "modelUrl": "https://www.automobiledimension.com/model/peugeot/3008",
+    "canonicalModelId": "peugeot-3008",
+    "canonicalBrand": "PEUGEOT",
+    "canonicalModel": "3008",
+    "canonicalName": "Peugeot 3008",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.731872+00:00"
+  },
+  "renault-arkana-e-tech": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/arkana",
+    "canonicalModelId": "renault-arkana",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Arkana",
+    "canonicalName": "Renault Arkana",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.729455+00:00"
+  },
+  "renault-austral": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/austral",
+    "canonicalModelId": "renault-austral",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Austral",
+    "canonicalName": "Renault Austral",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.673882+00:00"
+  },
+  "renault-captur": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/captur",
+    "canonicalModelId": "renault-captur",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Captur",
+    "canonicalName": "Renault Captur",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.675730+00:00"
+  },
+  "renault-captur-e-tech-hybrid": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/captur",
+    "canonicalModelId": "renault-captur",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Captur",
+    "canonicalName": "Renault Captur",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.689989+00:00"
+  },
+  "renault-clio": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/clio",
+    "canonicalModelId": "renault-clio",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Clio 2026",
+    "canonicalName": "New Renault Clio 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.650963+00:00"
+  },
+  "renault-clio-e-tech-hybrid": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/clio",
+    "canonicalModelId": "renault-clio",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Clio 2026",
+    "canonicalName": "New Renault Clio 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.744790+00:00"
+  },
+  "renault-kangoo": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/kangoo",
+    "canonicalModelId": "renault-kangoo",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Kangoo",
+    "canonicalName": "Renault Kangoo",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.733667+00:00"
+  },
+  "renault-rafale": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/rafale",
+    "canonicalModelId": "renault-rafale",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Rafale",
+    "canonicalName": "Renault Rafale",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.727158+00:00"
+  },
+  "renault-renault-5-e-tech-elect": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/5-e-tech",
+    "canonicalModelId": "renault-5-e-tech",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "5 E Tech",
+    "canonicalName": "Renault 5 E-Tech",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.734866+00:00"
+  },
+  "renault-symbioz": {
+    "modelUrl": "https://www.automobiledimension.com/model/renault/symbioz",
+    "canonicalModelId": "renault-symbioz",
+    "canonicalBrand": "RENAULT",
+    "canonicalModel": "Symbioz",
+    "canonicalName": "Renault Symbioz",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.693950+00:00"
+  },
+  "seat-arona": {
+    "modelUrl": "https://www.automobiledimension.com/model/seat/arona",
+    "canonicalModelId": "seat-arona",
+    "canonicalBrand": "SEAT",
+    "canonicalModel": "Arona 2026",
+    "canonicalName": "New SEAT Arona 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.654872+00:00"
+  },
+  "seat-ibiza": {
+    "modelUrl": "https://www.automobiledimension.com/model/seat/ibiza",
+    "canonicalModelId": "seat-ibiza",
+    "canonicalBrand": "SEAT",
+    "canonicalModel": "Ibiza 2026",
+    "canonicalName": "New SEAT Ibiza 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.651937+00:00"
+  },
+  "seat-seat-ateca": {
+    "modelUrl": "https://www.automobiledimension.com/model/seat/ateca",
+    "canonicalModelId": "seat-ateca",
+    "canonicalBrand": "SEAT",
+    "canonicalModel": "Ateca",
+    "canonicalName": "SEAT Ateca",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.701573+00:00"
+  },
+  "seat-seat-leon": {
+    "modelUrl": "https://www.automobiledimension.com/model/seat/leon",
+    "canonicalModelId": "seat-leon",
+    "canonicalBrand": "SEAT",
+    "canonicalModel": "Leon",
+    "canonicalName": "SEAT Leon",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.670890+00:00"
+  },
+  "skoda-fabia": {
+    "modelUrl": "https://www.automobiledimension.com/model/skoda/fabia",
+    "canonicalModelId": "skoda-fabia",
+    "canonicalBrand": "SKODA",
+    "canonicalModel": "Fabia",
+    "canonicalName": "Škoda Fabia",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.681737+00:00"
+  },
+  "skoda-kamiq": {
+    "modelUrl": "https://www.automobiledimension.com/model/skoda/kamiq",
+    "canonicalModelId": "skoda-kamiq",
+    "canonicalBrand": "SKODA",
+    "canonicalModel": "Kamiq",
+    "canonicalName": "Škoda Kamiq",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.674790+00:00"
+  },
+  "skoda-karoq": {
+    "modelUrl": "https://www.automobiledimension.com/model/skoda/karoq",
+    "canonicalModelId": "skoda-karoq",
+    "canonicalBrand": "SKODA",
+    "canonicalModel": "Karoq",
+    "canonicalName": "Škoda Karoq",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.690880+00:00"
+  },
+  "skoda-kodiaq": {
+    "modelUrl": "https://www.automobiledimension.com/model/skoda/kodiaq",
+    "canonicalModelId": "skoda-kodiaq",
+    "canonicalBrand": "SKODA",
+    "canonicalModel": "Kodiaq",
+    "canonicalName": "Škoda Kodiaq",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.737665+00:00"
+  },
+  "skoda-octavia": {
+    "modelUrl": "https://www.automobiledimension.com/model/skoda/octavia",
+    "canonicalModelId": "skoda-octavia",
+    "canonicalBrand": "SKODA",
+    "canonicalModel": "Octavia",
+    "canonicalName": "Škoda Octavia",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.721933+00:00"
+  },
+  "tesla-model-3": {
+    "modelUrl": "https://www.automobiledimension.com/model/tesla/model-3",
+    "canonicalModelId": "tesla-model-3",
+    "canonicalBrand": "TESLA",
+    "canonicalModel": "Model 3",
+    "canonicalName": "Tesla Model 3",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.676641+00:00"
+  },
+  "tesla-model-y": {
+    "modelUrl": "https://www.automobiledimension.com/model/tesla/model-y",
+    "canonicalModelId": "tesla-model-y",
+    "canonicalBrand": "TESLA",
+    "canonicalModel": "Model Y",
+    "canonicalName": "Tesla Model Y",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.696932+00:00"
+  },
+  "toyota-toyota-aygo-x": {
+    "modelUrl": "https://www.automobiledimension.com/model/toyota/aygo-x-cross",
+    "canonicalModelId": "toyota-aygo-x-cross",
+    "canonicalBrand": "TOYOTA",
+    "canonicalModel": "Aygo X Cross 2026",
+    "canonicalName": "New Toyota Aygo X Cross 2026",
+    "matchConfidence": "medium",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.747116+00:00"
+  },
+  "toyota-toyota-c-hr": {
+    "modelUrl": "https://www.automobiledimension.com/model/toyota/c-hr",
+    "canonicalModelId": "toyota-c-hr",
+    "canonicalBrand": "TOYOTA",
+    "canonicalModel": "C HR",
+    "canonicalName": "Toyota C-HR",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.656835+00:00"
+  },
+  "toyota-toyota-corolla": {
+    "modelUrl": "https://www.automobiledimension.com/model/toyota/corolla",
+    "canonicalModelId": "toyota-corolla",
+    "canonicalBrand": "TOYOTA",
+    "canonicalModel": "Corolla",
+    "canonicalName": "Toyota Corolla",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.653928+00:00"
+  },
+  "toyota-toyota-rav4": {
+    "modelUrl": "https://www.automobiledimension.com/model/toyota/rav4",
+    "canonicalModelId": "toyota-rav4",
+    "canonicalBrand": "TOYOTA",
+    "canonicalModel": "Rav 4 2026",
+    "canonicalName": "New Toyota RAV4 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.669964+00:00"
+  },
+  "toyota-toyota-yaris": {
+    "modelUrl": "https://www.automobiledimension.com/model/toyota/yaris",
+    "canonicalModelId": "toyota-yaris",
+    "canonicalBrand": "TOYOTA",
+    "canonicalModel": "Yaris",
+    "canonicalName": "Toyota Yaris",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.662392+00:00"
+  },
+  "toyota-toyota-yaris-cross": {
+    "modelUrl": "https://www.automobiledimension.com/model/toyota/yaris-cross",
+    "canonicalModelId": "toyota-yaris-cross",
+    "canonicalBrand": "TOYOTA",
+    "canonicalModel": "Yaris Cross",
+    "canonicalName": "Toyota Yaris Cross",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.658842+00:00"
+  },
+  "volkswagen-caddy": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/caddy",
+    "canonicalModelId": "volkswagen-caddy",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "Caddy",
+    "canonicalName": "Volkswagen Caddy",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.696009+00:00"
+  },
+  "volkswagen-golf": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/golf",
+    "canonicalModelId": "volkswagen-golf",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "Golf",
+    "canonicalName": "Volkswagen Golf",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.664425+00:00"
+  },
+  "volkswagen-polo": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/polo",
+    "canonicalModelId": "volkswagen-polo",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "Polo",
+    "canonicalName": "Volkswagen Polo",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.704512+00:00"
+  },
+  "volkswagen-t-cross": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/t-cross",
+    "canonicalModelId": "volkswagen-t-cross",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "T Cross",
+    "canonicalName": "Volkswagen T-Cross",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.673001+00:00"
+  },
+  "volkswagen-t-roc": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/t-roc",
+    "canonicalModelId": "volkswagen-t-roc",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "T Roc 2026",
+    "canonicalName": "New Volkswagen T-Roc 2026",
+    "matchConfidence": "high",
+    "matchMethod": "token",
+    "matchedAt": "2026-03-09T16:36:25.660318+00:00"
+  },
+  "volkswagen-taigo": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/taigo",
+    "canonicalModelId": "volkswagen-taigo",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "Taigo",
+    "canonicalName": "Volkswagen Taigo",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.666441+00:00"
+  },
+  "volkswagen-tiguan": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/tiguan",
+    "canonicalModelId": "volkswagen-tiguan",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "Tiguan",
+    "canonicalName": "Volkswagen Tiguan",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.661442+00:00"
+  },
+  "volkswagen-touran": {
+    "modelUrl": "https://www.automobiledimension.com/model/volkswagen/touran",
+    "canonicalModelId": "volkswagen-touran",
+    "canonicalBrand": "VOLKSWAGEN",
+    "canonicalModel": "Touran",
+    "canonicalName": "Volkswagen Touran",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.710401+00:00"
+  },
+  "volvo-xc40": {
+    "modelUrl": "https://www.automobiledimension.com/model/volvo/xc40",
+    "canonicalModelId": "volvo-xc40",
+    "canonicalBrand": "VOLVO",
+    "canonicalModel": "XC 40",
+    "canonicalName": "Volvo XC40",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.688651+00:00"
+  },
+  "volvo-xc60": {
+    "modelUrl": "https://www.automobiledimension.com/model/volvo/xc60",
+    "canonicalModelId": "volvo-xc60",
+    "canonicalBrand": "VOLVO",
+    "canonicalModel": "XC 60",
+    "canonicalName": "Volvo XC60",
+    "matchConfidence": "high",
+    "matchMethod": "exact",
+    "matchedAt": "2026-03-09T16:36:25.726133+00:00"
+  }
+}

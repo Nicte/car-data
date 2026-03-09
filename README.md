@@ -12,9 +12,13 @@ The ranking data comes from official DGT monthly microdata, replacing static scr
 
 - Monthly DGT files are downloaded into `data/dgt/monthly`.
 - Sales ranking for the app is generated from those ZIP files into `src/data/sales-rolling-12m.ts`.
+- Spanish DGT model IDs are mapped to canonical Automobile Dimension models via `data/spanish-to-canonical-mapping.json`.
 - `src/data/cars-es.ts` combines:
   - generated rolling sales/rank values,
-  - cached model metadata from `src/data/car-metadata.ts` (currently filled for top 20 models).
+  - auto metadata from canonical mappings,
+  - manual overrides from `src/data/car-metadata.ts`.
+
+The UI intentionally collapses trim-level variants into canonical models (for example, multiple C4 trims shown as one C4 row/card) to provide an 80/20 model-level view.
 
 The app currently aggregates registrations for vehicle category `M1` over the latest 12 available monthly files.
 
@@ -69,13 +73,36 @@ Rebuild rolling 12-month sales from local ZIP files:
 pnpm run data:build-rolling-sales
 ```
 
+Match Spanish sales IDs to canonical models:
+
+```bash
+pnpm run data:match-spanish-models
+```
+
+Fetch/update auto metadata from canonical mappings:
+
+```bash
+pnpm run data:fetch-metadata
+```
+
+Run full data refresh pipeline:
+
+```bash
+pnpm run data:update-all
+```
+
 ## Main files
 
 - `scripts/dgt_matriculaciones.py`: DGT listing fetch + downloader (supports missing-only mode).
 - `scripts/build_sales_rolling_12m.py`: generates rolling sales/rank map from local monthly ZIP files and keeps official Top 100 models with a 1000-unit floor.
 - `scripts/fetch_brand_models_source_of_truth.py`: scrapes all brands/models from automobiledimension.com into `data/automobiledimension-brand-models.json`, detects newly added/removed models on each run (see `scripts/README_BRAND_MODEL_SCRAPER.md`).
+- `scripts/match_spanish_models.py`: maps Spanish sales model IDs to canonical model URLs and writes JSON/TypeScript mapping outputs.
+- `scripts/fetch_car_metadata.py`: fetches metadata for matched canonical models only and caches by canonical model URL.
 - `src/data/sales-rolling-12m.ts`: generated rolling sales dataset used by the UI.
-- `src/data/car-metadata.ts`: persistent metadata cache keyed by model id (dimensions, labels, versions, image).
+- `data/spanish-to-canonical-mapping.json`: Spanish ID to canonical Automobile Dimension model mapping.
+- `data/car-metadata-auto-cache.json`: auto metadata cache keyed by canonical model URL.
+- `src/data/car-metadata-auto.ts`: generated auto metadata keyed by Spanish ID (with canonical model identity fields).
+- `src/data/car-metadata.ts`: manual metadata overrides (dimensions, labels, versions, image).
 - `src/data/cars-es.ts`: app car catalog + data source metadata.
 - `src/App.tsx`: filters, sorting, cards/table views.
 

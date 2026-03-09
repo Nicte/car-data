@@ -1,0 +1,54 @@
+{
+  "models": [
+    {
+      "name": "EBRO s400 HEV",
+      "brand": "EBRO",
+      "modelUrl": "https://www.ebroauto.com/ebro-modelos/s400",
+      "lengthMm": 4320,
+      "widthMm": 1830,
+      "trunkLiters": 430,
+      "source": "https://www.ebroauto.com/ebro-modelos/s400"
+    },
+    {
+      "name": "EBRO s700",
+      "brand": "EBRO",
+      "modelUrl": "https://www.ebroauto.com/modelos/ebro-s700-combustion",
+      "lengthMm": 4553,
+      "widthMm": 1862,
+      "source": "https://www.ebroauto.com/modelos/ebro-s700-combustion"
+    },
+    {
+      "name": "JAECOO 7 SHS",
+      "brand": "JAECOO",
+      "modelUrl": "https://www.omodajaecoo.es/modelos/jaecoo-7/hibrido-ficha-tecnica",
+      "lengthMm": 4500,
+      "widthMm": 1865,
+      "trunkLiters": 340,
+      "source": "https://www.omodajaecoo.es/modelos/jaecoo-7/hibrido-ficha-tecnica"
+    },
+    {
+      "name": "Kia Ceed 2022",
+      "brand": "KIA",
+      "modelUrl": "https://www.automobiledimension.com/model/kia/ceed",
+      "imageUrl": "https://www.automobiledimension.com/photos/kia-ceed-2022.jpg",
+      "lengthMm": 4310,
+      "widthMm": 1800,
+      "trunkLiters": 395,
+      "source": "https://www.automobiledimension.com/model/kia/ceed"
+    },
+    {
+      "name": "OMODA 9 SHS",
+      "brand": "OMODA",
+      "modelUrl": "https://www.omodajaecoo.es/modelos/omoda-9/hibrido-ficha-tecnica",
+      "lengthMm": 4775,
+      "widthMm": 1920,
+      "source": "https://www.omodajaecoo.es/modelos/omoda-9/hibrido-ficha-tecnica"
+    },
+    {
+      "name": "OMODA 5 Gasolina",
+      "brand": "OMODA",
+      "modelUrl": "https://www.omodajaecoo.es/modelos/omoda-5/gasolina-ficha-tecnica",
+      "source": "https://www.omodajaecoo.es/modelos/omoda-5/gasolina-ficha-tecnica"
+    }
+  ]
+}

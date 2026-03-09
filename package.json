@@ -14,7 +14,11 @@
     "data:download-dgt": "python3 scripts/dgt_matriculaciones.py --dataset monthly --latest-months 12 --download --download-missing-only --no-metadata --prune-out-dir --out-dir data/dgt",
     "data:build-rolling-sales": "python3 scripts/build_sales_rolling_12m.py",
     "data:update-rolling-sales": "pnpm run data:download-dgt && pnpm run data:build-rolling-sales",
-    "data:fetch-missing-metadata": "python3 scripts/fetch_car_metadata.py"
+    "data:refresh-source-of-truth": "python3 scripts/fetch_brand_models_source_of_truth.py",
+    "data:match-spanish-models": "python3 scripts/match_spanish_models.py",
+    "data:fetch-metadata": "python3 scripts/fetch_car_metadata.py",
+    "data:fetch-missing-metadata": "pnpm run data:fetch-metadata",
+    "data:update-all": "pnpm run data:update-rolling-sales && pnpm run data:refresh-source-of-truth && pnpm run data:match-spanish-models && pnpm run data:fetch-metadata"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",

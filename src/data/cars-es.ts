@@ -7,6 +7,7 @@ import {
 } from "@/data/sales-rolling-12m"
 import { carMetadataById } from "@/data/car-metadata"
 import { carMetadataAutoById } from "@/data/car-metadata-auto"
+import { spanishToCanonicalMappingById } from "@/data/spanish-to-canonical-mapping"
 
 export type PowertrainType =
   | "gasoline"
@@ -136,27 +137,94 @@ function resolveImageUrl(modelId: string) {
   return autoImageUrl ?? manualImageUrl
 }
 
-export const carsSpainTopSalesRolling12m: Car[] = rollingSalesTopModels.map(
-  (model) => {
+export const carsSpainTopSalesRolling12m: Car[] = (() => {
+  type AggregatedCar = Car & { _bestRank: number }
+
+  const byCanonicalId = new Map<string, AggregatedCar>()
+
+  for (const model of rollingSalesTopModels) {
     const metadata = {
       ...carMetadataAutoById[model.id],
       ...carMetadataById[model.id],
     }
-    return {
-      id: model.id,
-      brand: toDisplayBrand(model.brand),
-      model: toDisplayModel(model.brand, model.model),
+    const mapping = spanishToCanonicalMappingById[model.id]
+
+    const canonicalId =
+      metadata.canonicalModelId ?? mapping?.canonicalModelId ?? model.id
+    const canonicalBrand =
+      metadata.canonicalBrand ?? mapping?.canonicalBrand ?? model.brand
+    const canonicalModel =
+      metadata.canonicalModel ??
+      mapping?.canonicalModel ??
+      toDisplayModel(model.brand, model.model)
+
+    const existing = byCanonicalId.get(canonicalId)
+    const imageUrl = metadata.imageUrl ?? resolveImageUrl(model.id)
+
+    if (existing) {
+      existing.salesUnits12m += model.salesUnits12m
+      existing._bestRank = Math.min(existing._bestRank, model.salesRank12m)
+
+      if (!existing.bodyType && metadata.bodyType) {
+        existing.bodyType = metadata.bodyType
+      }
+      if (
+        existing.versions.length === 0 &&
+        (metadata.versions?.length ?? 0) > 0
+      ) {
+        existing.versions = metadata.versions ?? []
+      }
+      if (!existing.lengthMm && metadata.lengthMm) {
+        existing.lengthMm = metadata.lengthMm
+      }
+      if (!existing.widthMm && metadata.widthMm) {
+        existing.widthMm = metadata.widthMm
+      }
+      if (!existing.trunkLiters && metadata.trunkLiters) {
+        existing.trunkLiters = metadata.trunkLiters
+      }
+      if (!existing.imageUrl && imageUrl) {
+        existing.imageUrl = imageUrl
+      }
+      continue
+    }
+
+    byCanonicalId.set(canonicalId, {
+      id: canonicalId,
+      brand: toDisplayBrand(canonicalBrand),
+      model: canonicalModel,
       salesRank12m: model.salesRank12m,
       salesUnits12m: model.salesUnits12m,
-      bodyType: metadata?.bodyType,
-      versions: metadata?.versions ?? [],
-      lengthMm: metadata?.lengthMm,
-      widthMm: metadata?.widthMm,
-      trunkLiters: metadata?.trunkLiters,
-      imageUrl: resolveImageUrl(model.id),
-    }
+      bodyType: metadata.bodyType,
+      versions: metadata.versions ?? [],
+      lengthMm: metadata.lengthMm,
+      widthMm: metadata.widthMm,
+      trunkLiters: metadata.trunkLiters,
+      imageUrl,
+      _bestRank: model.salesRank12m,
+    })
   }
-)
+
+  return Array.from(byCanonicalId.values())
+    .sort((left, right) => {
+      if (right.salesUnits12m !== left.salesUnits12m) {
+        return right.salesUnits12m - left.salesUnits12m
+      }
+      if (left._bestRank !== right._bestRank) {
+        return left._bestRank - right._bestRank
+      }
+      return `${left.brand} ${left.model}`.localeCompare(
+        `${right.brand} ${right.model}`
+      )
+    })
+    .map((car, index) => {
+      const { _bestRank: _ignoredBestRank, ...rest } = car
+      return {
+        ...rest,
+        salesRank12m: index + 1,
+      }
+    })
+})()
 
 export const dataLastUpdated = "2026-03-08"
 export const salesWindowMonths = rollingSalesWindowMonths
