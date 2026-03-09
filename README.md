@@ -73,6 +73,7 @@ pnpm run data:build-rolling-sales
 
 - `scripts/dgt_matriculaciones.py`: DGT listing fetch + downloader (supports missing-only mode).
 - `scripts/build_sales_rolling_12m.py`: generates rolling sales/rank map from local monthly ZIP files and keeps official Top 100 models with a 1000-unit floor.
+- `scripts/fetch_brand_models_source_of_truth.py`: scrapes all brands/models from automobiledimension.com into `data/automobiledimension-brand-models.json`, detects newly added/removed models on each run (see `scripts/README_BRAND_MODEL_SCRAPER.md`).
 - `src/data/sales-rolling-12m.ts`: generated rolling sales dataset used by the UI.
 - `src/data/car-metadata.ts`: persistent metadata cache keyed by model id (dimensions, labels, versions, image).
 - `src/data/cars-es.ts`: app car catalog + data source metadata.
