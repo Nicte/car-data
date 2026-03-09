@@ -22,16 +22,14 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4127,
     widthMm: 1760,
     trunkLiters: 385,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/volkswagen-t-cross-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/volkswagen-t-cross-2024.jpg",
   },
   "renault-austral": {
     bodyType: "suv-compacto",
     lengthMm: 4533,
     widthMm: 1830,
     trunkLiters: 500,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-austral-2025.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-austral-2025.jpg",
   },
   "skoda-kamiq": {
     bodyType: "suv-compacto",
@@ -45,16 +43,13 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4239,
     widthMm: 1797,
     trunkLiters: 422,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-captur-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-captur-2024.jpg",
   },
   "tesla-model-3": {
-    bodyType: "compacto",
     lengthMm: 4720,
     widthMm: 1850,
     trunkLiters: 513,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/tesla-model-3-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/tesla-model-3-2024.jpg",
   },
   "peugeot-208-5p-allure-gasolina": {
     bodyType: "utilitario",
@@ -124,16 +119,14 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4304,
     widthMm: 1770,
     trunkLiters: 434,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/peugeot-2008-2023.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/peugeot-2008-2023.jpg",
   },
   "jeep-avenger": {
     bodyType: "suv-urbano",
     lengthMm: 4084,
     widthMm: 1776,
     trunkLiters: 380,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/jeep-avenger-2023.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/jeep-avenger-2023.jpg",
   },
   "volvo-xc40": {
     bodyType: "suv-compacto",
@@ -147,8 +140,7 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4239,
     widthMm: 1797,
     trunkLiters: 422,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-captur-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-captur-2024.jpg",
   },
   "skoda-karoq": {
     bodyType: "suv-compacto",
@@ -176,8 +168,7 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4413,
     widthMm: 1797,
     trunkLiters: 613,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-symbioz-2025.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-symbioz-2025.jpg",
   },
   "citroen-nuevo-citro-n-c3-turbo": {
     bodyType: "utilitario",
@@ -189,25 +180,21 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
   "volkswagen-caddy": {
     lengthMm: 4500,
     widthMm: 1855,
-    trunkLiters: 1385,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/volkswagen-caddy-2021.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/volkswagen-caddy-2021.jpg",
   },
   "tesla-model-y": {
     bodyType: "suv-compacto",
     lengthMm: 4790,
     widthMm: 1920,
     trunkLiters: 971,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/tesla-model-y-2025.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/tesla-model-y-2025.jpg",
   },
   "audi-a3-sportback": {
     bodyType: "compacto",
     lengthMm: 4352,
     widthMm: 1816,
     trunkLiters: 380,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/audi-a3-sportback-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/audi-a3-sportback-2024.jpg",
   },
   "hyundai-i10": {
     bodyType: "utilitario",
@@ -221,8 +208,7 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4029,
     widthMm: 1740,
     trunkLiters: 335,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/audi-a1-sportback-2019.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/audi-a1-sportback-2019.jpg",
   },
   "ford-focus": {
     bodyType: "compacto",
@@ -243,8 +229,7 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4451,
     widthMm: 1839,
     trunkLiters: 450,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/cupra-formentor-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/cupra-formentor-2024.jpg",
   },
   "mg-mg3-hybrid": {
     bodyType: "compacto",
@@ -258,32 +243,28 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4074,
     widthMm: 1751,
     trunkLiters: 351,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/volkswagen-polo-2021.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/volkswagen-polo-2021.jpg",
   },
   "dacia-jogger": {
     bodyType: "suv-compacto",
     lengthMm: 4547,
     widthMm: 1784,
     trunkLiters: 708,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/dacia-jogger-2022.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/dacia-jogger-2022.jpg",
   },
   "peugeot-2008-allure-gasolina-1": {
     bodyType: "suv-compacto",
     lengthMm: 4304,
     widthMm: 1770,
     trunkLiters: 434,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/peugeot-2008-2023.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/peugeot-2008-2023.jpg",
   },
   "mercedes-benz-glc-300-de-4matic": {
     bodyType: "suv-compacto",
     lengthMm: 4731,
     widthMm: 1890,
     trunkLiters: 500,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/mercedes-benz-glc-coupe-2019.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/mercedes-benz-glc-coupe-2019.jpg",
   },
   "kia-xceed": {
     bodyType: "suv-compacto",
@@ -293,27 +274,22 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     imageUrl: "https://www.automobiledimension.com/photos/kia-xceed-2023.jpg",
   },
   "volkswagen-touran": {
-    bodyType: "compacto",
     lengthMm: 4527,
     widthMm: 1829,
     trunkLiters: 743,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/volkswagen-touran-2016.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/volkswagen-touran-2016.jpg",
   },
   "kia-ev3": {
-    bodyType: "suv-compacto",
     lengthMm: 4300,
     widthMm: 1850,
     trunkLiters: 485,
     imageUrl: "https://www.automobiledimension.com/photos/kia-ev3-2025.jpg",
   },
   "audi-q3-sportback": {
-    bodyType: "suv-compacto",
     lengthMm: 4531,
     widthMm: 1859,
     trunkLiters: 488,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/audi-q3-sportback-2026.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/audi-q3-sportback-2026.jpg",
   },
   "fiat-600": {
     bodyType: "compacto",
@@ -355,16 +331,14 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4570,
     widthMm: 1810,
     trunkLiters: 667,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/dacia-bigster-2025.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/dacia-bigster-2025.jpg",
   },
   "hyundai-bayon": {
     bodyType: "suv-urbano",
     lengthMm: 4180,
     widthMm: 1775,
     trunkLiters: 411,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/hyundai-bayon-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/hyundai-bayon-2024.jpg",
   },
   "opel-corsa-edition-1-2t-xhl": {
     bodyType: "utilitario",
@@ -378,16 +352,14 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4698,
     widthMm: 1829,
     trunkLiters: 600,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/skoda-octavia-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/skoda-octavia-2024.jpg",
   },
   "mercedes-benz-glc-220-d-4matic": {
     bodyType: "suv-compacto",
     lengthMm: 4731,
     widthMm: 1890,
     trunkLiters: 500,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/mercedes-benz-glc-coupe-2019.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/mercedes-benz-glc-coupe-2019.jpg",
   },
   "bmw-x1-sdrive20d": {
     bodyType: "suv-compacto",
@@ -408,40 +380,35 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4710,
     widthMm: 1866,
     trunkLiters: 530,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-rafale-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-rafale-2024.jpg",
   },
   "nissan-nissan-x-trail": {
     bodyType: "suv-compacto",
     lengthMm: 4680,
     widthMm: 1840,
     trunkLiters: 585,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/nissan-x-trail-2023.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/nissan-x-trail-2023.jpg",
   },
   "renault-arkana-e-tech": {
     bodyType: "suv-compacto",
     lengthMm: 4568,
     widthMm: 1821,
     trunkLiters: 513,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-arkana-2021.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-arkana-2021.jpg",
   },
   "cupra-formentor-e-hybrid": {
     bodyType: "suv-compacto",
     lengthMm: 4451,
     widthMm: 1839,
     trunkLiters: 450,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/cupra-formentor-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/cupra-formentor-2024.jpg",
   },
   "peugeot-nuevo-3008-allure-hybr": {
     bodyType: "suv-compacto",
     lengthMm: 4542,
     widthMm: 1895,
     trunkLiters: 520,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/peugeot-3008-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/peugeot-3008-2024.jpg",
   },
   "mazda-mazda3": {
     bodyType: "compacto",
@@ -454,24 +421,21 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4486,
     widthMm: 1860,
     trunkLiters: 850,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-kangoo-2021.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-kangoo-2021.jpg",
   },
   "renault-renault-5-e-tech-elect": {
     bodyType: "utilitario",
     lengthMm: 3922,
     widthMm: 1774,
     trunkLiters: 277,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-5-e-tech-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-5-e-tech-2024.jpg",
   },
   "byd-byd-dolphin-surf": {
     bodyType: "utilitario",
     lengthMm: 3990,
     widthMm: 1720,
     trunkLiters: 308,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/byd-dolphin-surf-2025.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/byd-dolphin-surf-2025.jpg",
   },
   "mg-mg3": {
     bodyType: "compacto",
@@ -485,16 +449,14 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 4758,
     widthMm: 1864,
     trunkLiters: 725,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/skoda-kodiaq-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/skoda-kodiaq-2024.jpg",
   },
   "mercedes-benz-gla-250-e": {
     bodyType: "suv-compacto",
     lengthMm: 4410,
     widthMm: 1834,
     trunkLiters: 435,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/mercedes-benz-gla-2020.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/mercedes-benz-gla-2020.jpg",
   },
   "citroen-nuevo-c4-hybrid-136": {
     bodyType: "compacto",
@@ -529,24 +491,21 @@ export const carMetadataAutoById: Record<string, CarMetadata> = {
     lengthMm: 3922,
     widthMm: 1774,
     trunkLiters: 277,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/renault-5-e-tech-2024.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/renault-5-e-tech-2024.jpg",
   },
   "cupra-terramar-e-hybrid": {
     bodyType: "suv-compacto",
     lengthMm: 4519,
     widthMm: 1869,
     trunkLiters: 540,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/cupra-terramar-2025.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/cupra-terramar-2025.jpg",
   },
   "toyota-toyota-aygo-x": {
     bodyType: "utilitario",
     lengthMm: 3776,
     widthMm: 1740,
     trunkLiters: 231,
-    imageUrl:
-      "https://www.automobiledimension.com/photos/toyota-aygo-x-cross-2026.jpg",
+    imageUrl: "https://www.automobiledimension.com/photos/toyota-aygo-x-cross-2026.jpg",
   },
   "hyundai-i-30": {
     bodyType: "compacto",
